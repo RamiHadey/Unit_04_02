@@ -14,18 +14,22 @@
 
 
 /* Structural Styles */
+
 /*step4*/
+/*change the backgroundcolor of the html*/
 html{
 background-color: rgb(173, 189, 227);
 }
 
 /*step5*/
+/*change the background color of the body and change the font*/
 body{
    background-color: rgb(227, 210, 173);
    font-family:('fantasy', sans-serif);
 }
 
 /*step6*/
+/*made the padding below and above the footer 5px*/
 footer{
    background-color: rgb(208, 184, 109);
    padding-top: 5px;
@@ -33,6 +37,7 @@ footer{
 }
 
 /*step7*/
+/*changes the font of the address and center it*/
 address{
    font-style: normal;
    font-size: 0.9em;
@@ -55,6 +60,7 @@ font-weight: normal;
 /* Navigation Styles */
 
 /*step9*/
+/* gets rid of the bulletin points, and change spacing of the lines*/
 nav > ul{
    list-style-type: none;
    line-height: 2em;
@@ -62,12 +68,14 @@ nav > ul{
 }
 
 /*step10*/
+/*makes every clickable link highlighted and gets rid of the underline*/
 nav a:visited, nav a:link{
    text-decoration: none;
    color: rgb(43, 59, 125);
 }
 
 /*step11*/
+/*makes it so when you hover over it, it turns red */
 nav a:hover, nav a:active{
    color: rgb(212, 35, 35);
 }
@@ -88,6 +96,7 @@ nav a:hover, nav a:active{
 }
 
 /*step14*/
+/* Makes first line small-caps fonts*/
 #tour_summary > p:first-of-type::first-line{
    font-size: 1.2em;
    font-variant: small-caps;
@@ -134,6 +143,7 @@ blockquote{
 }
 
 /*step20*/
+/* makes paragraph spaced out*/
 blockquote p{
    padding-top: 2.5px;
    padding-bottom: 2.5px;
